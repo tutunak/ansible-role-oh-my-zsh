@@ -102,8 +102,8 @@ Example Playbook
 More Roles From GantSign
 ------------------------
 
-You can find more roles from GantSign on
-[Ansible Galaxy](https://galaxy.ansible.com/gantsign).
+You can find more roles from me on
+[Ansible Galaxy](https://galaxy.ansible.com/tutunak).
 
 Development & Testing
 ---------------------
@@ -142,8 +142,11 @@ MIT
 
 Author Information
 ------------------
+Dmitry Kotov
+
+
+Original:
 
 John Freeman
-
 GantSign Ltd.
 Company No. 06109112 (registered in England)
