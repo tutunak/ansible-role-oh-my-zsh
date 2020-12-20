@@ -27,6 +27,7 @@ Requirements
             * 8
         * Fedora
             * 32
+            * 33
     * SUSE Family
         * openSUSE
             * 15.1
