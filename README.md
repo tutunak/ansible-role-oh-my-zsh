@@ -15,18 +15,18 @@ Requirements
 * Linux Distribution
     * Debian Family
         * Debian
-            * Jessie (9)
-            * Stretch (10)
+            * Stretch (9)
+            * Buster (10)
         * Ubuntu
             * Xenial (16.04)
             * Bionic (18.04)
+            * Focal (20.04)
     * RedHat Family
         * CentOS
             * 7
             * 8
         * Fedora
             * 32
-            * 33
     * SUSE Family
         * openSUSE
             * 15.1
