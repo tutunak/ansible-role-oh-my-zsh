@@ -1,8 +1,8 @@
 Ansible Role: Oh My Zsh
 =======================
 
-[![Build Status](https://travis-ci.com/tutunak/ansible-role-oh-my-zsh.svg?branch=master)](https://travis-ci.com/gantsign/ansible-role-oh-my-zsh)
-[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-tutunak.oh--my--zsh-blue.svg)](https://galaxy.ansible.com/tutunak/oh-my-zsh)
+[![Build Status](https://travis-ci.com/tutunak/ansible-role-oh-my-zsh.svg?branch=master)](https://travis-ci.com/tutunak/ansible-role-oh-my-zsh)
+[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-tutunak.oh_my_zsh-blue.svg)](https://galaxy.ansible.com/tutunak/oh_my_zsh)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/tutunak/ansible-role-oh-my-zsh/master/LICENSE)
 
 Role to download, install and configure [Oh-My-Zsh](http://ohmyz.sh/).
