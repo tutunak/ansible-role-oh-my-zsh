@@ -12,8 +12,28 @@ lint: |
   flake8
 
 platforms:
+  - name: ansible-role-oh-my-zsh-debian-9
+    image: debian:9
+  - name: ansible-role-oh-my-zsh-debian-10
+    image: debian:10
+  - name: ansible-role-oh-my-zsh-ubuntu-16.04
+    image: ubuntu:16.04
+  - name: ansible-role-oh-my-zsh-ubuntu-18.04
+    image: ubuntu:18.04
+  - name: ansible-role-oh-my-zsh-ubuntu-20.04
+    image: ubuntu:20.04
+  - name: ansible-role-oh-my-zsh-centos-7
+    image: centos:7
+  - name: ansible-role-oh-my-zsh-centos-8
+    image: centos:8
+  - name: ansible-role-oh-my-zsh-fedora-32
+    image: fedora:32
   - name: ansible-role-oh-my-zsh-fedora-33
     image: fedora:33
+  - name: ansible-role-oh-my-zsh-opensuse-15.1
+    image: opensuse/leap:15.1
+  - name: ansible-role-oh-my-zsh-opensuse-15.2
+    image: opensuse/leap:15.2
 
 provisioner:
   name: ansible

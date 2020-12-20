@@ -11,7 +11,7 @@ env:
     - MOLECULEW_ANSIBLE=2.9.16
     - MOLECULEW_ANSIBLE=2.10.4
 
-# Require Ubuntu 16.04
+# Require Ubuntu 20.04
 dist: focal
 
 # Require Docker
