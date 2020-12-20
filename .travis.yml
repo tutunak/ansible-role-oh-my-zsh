@@ -12,7 +12,7 @@ env:
     - MOLECULEW_ANSIBLE=2.10.4
 
 # Require Ubuntu 16.04
-dist: xenial
+dist: focal
 
 # Require Docker
 services:
