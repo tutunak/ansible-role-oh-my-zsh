@@ -13,34 +13,24 @@ Requirements
 * Ansible >= 2.8
 
 * Linux Distribution
-
     * Debian Family
-
         * Debian
-
-            * Jessie (8)
-            * Stretch (9)
-
+            * Jessie (9)
+            * Stretch (10)
         * Ubuntu
-
             * Xenial (16.04)
             * Bionic (18.04)
-
     * RedHat Family
-
         * CentOS
-
             * 7
-
+            * 8
         * Fedora
-
-            * 31
-
+            * 32
+            * 33
     * SUSE Family
-
         * openSUSE
-
             * 15.1
+            * 15.2
 
     * Note: other versions are likely to work but have not been tested.
 
