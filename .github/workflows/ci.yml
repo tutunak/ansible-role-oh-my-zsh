@@ -4,6 +4,7 @@ name: CI
   pull_request:
   push:
     branches:
+      - master
 jobs:
   test:
     name: Molecule
