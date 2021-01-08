@@ -11,14 +11,14 @@ jobs:
     strategy:
       matrix:
         - distro: centos7
-      steps:
-        - name: Check out the codebase.
-          uses: actions/checkout@v2
-        - name: Install test dependencies.
-          run: ./moleculew wrapper-install
-        - name: Run Molecule tests.
-          run: molecule test
-          env:
-            PY_COLORS: '1'
-            ANSIBLE_FORCE_COLOR: '1'
-            MOLECULE_DISTRO: ${{ matrix.distro }}
+    steps:
+      - name: Check out the codebase.
+        uses: actions/checkout@v2
+      - name: Install test dependencies.
+        run: ./moleculew wrapper-install
+      - name: Run Molecule tests.
+        run: molecule test
+        env:
+          PY_COLORS: '1'
+          ANSIBLE_FORCE_COLOR: '1'
+          MOLECULE_DISTRO: ${{ matrix.distro }}
