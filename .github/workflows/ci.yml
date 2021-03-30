@@ -12,9 +12,10 @@ jobs:
     strategy:
       matrix:
         ansible:
-          - 2.8.18
-          - 2.9.16
-          - 2.10.4
+          - 2.8.19
+          - 2.9.19
+          - 2.10.7
+          - 3.2.0
     steps:
       - name: Check out the codebase.
         uses: actions/checkout@v2
