@@ -15,8 +15,6 @@ jobs:
           - 2.8.18
           - 2.9.16
           - 2.10.4
-        molecule:
-          - 3.2.2
     steps:
       - name: Check out the codebase.
         uses: actions/checkout@v2
@@ -25,7 +23,7 @@ jobs:
         with:
           python-version: '3.x'
       - name: Install test dependencies.
-        run: pip3 install ansible==${{ matrix.ansible }}  molecule[docker]==${{ matrix.molecule }} docker testinfra yamllint ansible-lint flake8
+        run: pip3 install ansible==${{ matrix.ansible }}  molecule[docker]==3.2.2 docker testinfra yamllint ansible-lint==4.3.7 flake8
       - name: Run Molecule tests.
         run: molecule test
         env:
